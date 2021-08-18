@@ -2,7 +2,6 @@ def promedio (cantidad_letras, cantidad_palabras):
 
     return cantidad_letras / cantidad_palabras
 
-
 def cantidad_letras (cadena):
     cantidad = 0
     for i in cadena:

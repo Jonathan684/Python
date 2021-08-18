@@ -1,6 +1,9 @@
 import Funciones.modulo1 as fun
 import Funciones.ventana as vent
-vent.ventana()
+R = 'hola mundo'
+vent.inicio()
+vent.ver_txt(R)
+
 #cadena = "Ahora estamos en octavos de final del mundial."
 cadena = "El registro de goles ha revelado que el réferi se equivoca."
 longitud_palabra = 0
@@ -66,10 +69,12 @@ for letra in cadena:
 if(contador_comienza_con_t != 0):
     promedio = fun.promedio(suma_letras, contador_comienza_con_t)
 
-
+print("El promedio de palabras que comienzan con T", round(promedio))
 print("El promedio de palabras que comienzan con T", round(promedio))
 print("Palabras mayor a 4 y que contiene n :",contador_palabras_letrasmayor4)
 print("Las palbras que comienzan con T: ", contador_comienza_con_t)
 print("Las palabras con T: ", suma_letras, suma_letras_2)
 print('Las palabras que contienen "a", "s" y no "e", son: ', contador_pasne)
 print('Palabras con "re" y finalizan con "o":' ,contador_de_re)
+vent.ver_txt(str(round(contador_de_re)))
+vent.mostrar()
