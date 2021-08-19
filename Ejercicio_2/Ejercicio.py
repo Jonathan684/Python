@@ -1,4 +1,4 @@
-__author__ = 'Nadia'
+__author__ = 'Nadia y Jonathan'
 def es_digitos(num):
     if num in '0123456789':
         return True
