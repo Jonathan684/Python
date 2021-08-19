@@ -5,20 +5,17 @@ def es_digitos(num):
     else:
         return False
 
-
 def es_vocal(cadena):
     if cadena in 'AEIOUaeiou':
         return True
     else:
         return False
 
-
 def es_par(num):
     if num % 2 == 0:
         return True
     else:
         return False
-
 
 def calcular_porcentaje(total, cantidad):
     if total != 0:
@@ -27,13 +24,11 @@ def calcular_porcentaje(total, cantidad):
     else:
         return 0
 
-
 def es_consonante(cadena):
     if cadena in 'AEIOUaeiou':
         return False
     else:
         return True
-
 
 def buscar_ma(cadena):
     hay_ma = 0
