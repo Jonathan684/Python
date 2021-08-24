@@ -1,0 +1,37 @@
+
+FICHA 14. ESTUDIO CLIMATOLÓGICO
+Como parte de un estudio climatológico, se desea un programa que permita obtener una serie de estadísticas
+a partir de un conjunto de muestras de temperatura.
+
+Se pide un programa que:
+
+Ingrese n muestras de temperatura,
+donde cada muestra contiene la temperatura registrada,
+la región donde se registró la misma (1-20),
+y el día del mes en el que se registró la temperatura
+Determinar el promedio general de temperatura
+Dada una región, mostrar las temperaturas de la misma, ordenadas por dia, de menor a mayor
+Dada una región, determinar si la temperatura de alguna muestra superó el valor x, ingresado por teclado
+/------------------------/
+region[3]= 2
+dia [3] = 2
+temperatura [3] = 23°c
+/-----------------------/
+region[4]= 2
+dia [4] = 3
+temperatura [4] = 25°c
+/-----------------------/
+x = int(input('Ingresar valor x'))
+if(region[indice] == 2) and Temperatura[indice] > x
+
+/-----------------------/
+Determinar la cantidad de muestras por region (20 contadores)
+/-------------------/
+cantidad _de_regiones = 20
+Acumuladores = cantidad _de_regiones*[0]
+for indice in range(n):         0,1,2,3
+    if regiones[indice] != 0:   2,3,2,1,1
+        Acumulador[regiones[indice]] += 1
+valores        0,2,2,1
+posicion       -,1,2,3,......,20
+/-------------------/
