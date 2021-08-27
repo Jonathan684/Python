@@ -1,6 +1,6 @@
 FICHA 18. EJERCICIO 1.
 Triatlon
-El Comité Argentnio de Atletismo llevo a cabo una prueba atletica
+El Comité Argentino de Atletismo llevo a cabo una prueba atletica
 de Triatlón, nos solicito un programa que valide lo anotado por los
 jueces del evento, para dicho propósito se deben cargar los datos de
 los tres atletas con mejor promedio. De cada atleta se conocen Nombre,
