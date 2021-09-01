@@ -1,4 +1,4 @@
-FICHA 18. EJERCICIO 1.
+FICHA 18. EJERCICIO 1. 
 Triatlon
 El Comité Argentino de Atletismo llevo a cabo una prueba atletica
 de Triatlón, nos solicito un programa que valide lo anotado por los
@@ -8,6 +8,6 @@ Tiempo Natacion, Tiempo Ciclismo,
 Tiempo Corriendo (todo en minutos para simplificar los calculos).
 
 Usted debe:
-Informar tiempo promedio de cada competidor
+Informar tiempo promedio de cada competidor --> listo 
 Determinar el podio, indicando el nombre del primer,
 segundo y tercer mejor promedio
