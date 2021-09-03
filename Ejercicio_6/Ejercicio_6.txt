@@ -1,0 +1,44 @@
+Turno 03
+
+Enunciado:
+Una organización de medicina para zonas de emergencia desea un programa para procesar los datos de los pacientes que atendió. 
+Por cada paciente se tienen los siguientes datos: 
+el número de identificación del paciente, 
+el nombre del paciente,
+el tipo de práctica médica que se le aplicó (un número entero entre 0 y 29, para indicar por ejemplo: 0: vacunación, 1: traumatología, 2: pediatría, etc.), 
+la cantidad de días de tratamiento y 
+la cantidad de medicamentos que se le entregó o aplicó a ese paciente. 
+
+Se desea almacenar la información referida a los n servicios en un arreglo de registros de tipo Servicio
+(definir el tipo Servicio y cargar n por teclado).
+
+
+Se pide desarrollar un programa en Python controlado por un menú de opciones, que permita gestionar las siguientes tareas:
+1-	Cargar el arreglo pedido con los datos de los n pacientes.
+ Valide que el número de identificación del paciente sea positivo y que el tipo de práctica esté entre 0 y 29. 
+Puede hacer la carga en forma manual, o puede generar los datos en forma automática 
+(con valores aleatorios) o puede disponer de ambas técnicas si lo desea. 
+Pero al menos una debe programar.
+2-	Mostrar todos los datos de todos los pacientes, en un listado ordenado de menor a mayor según los nombres de los pacientes.
+3-	Determinar y mostrar la cantidad de pacientes que se atendieron por cada tipo posible de práctica 
+(un contador para las prácticas tipo 0, otro para las tipo 1, etc.) 
+En total, 30 contadores usando un vector de conteo.
+
+
+4-	Determinar si existe un paciente cuyo número de identificación sea igual a x y que tenga una cantidad de días tratamiento igual o mayor a t, 
+siendo x y  t dos valores que se cargan por teclado. Si existe, mostrar sus datos.
+Si no existe, informar con un mensaje. 
+Si existe más de un registro que coincida con esos parámetros de búsqueda, debe mostrar sólo el primero que encuentre.
+
+
+
+
+Criterios generales de evaluación:
+a.) Desarrollo del programa completo, incluyendo el menú correctamente planteado, funciones correctamente diseñadas y parametrizadas (cuando sea apropiado)
+y validaciones: [máximo: 3 puntos (20% del puntaje)]
+b.) Desarrollo correcto del ítem 1: [máximo: 3 puntos (20% del puntaje)] 
+c.) Desarrollo correcto del ítem 2: [máximo: 3 puntos (20% del puntaje)] 
+d.) Desarrollo correcto del ítem 3: [máximo: 3 puntos (20% del puntaje)] 
+e.) Desarrollo correcto del ítem 4: [máximo: 3 puntos (20% del puntaje)]
+f.) Para aprobar el parcial, el alumno debe llegar a un total acumulado de al menos 55% del puntaje (es decir, alrededor de 8.25 puntos acumulados),
+pero obligatoriamente debe estar desarrollado el programa funcionando y operativo.
