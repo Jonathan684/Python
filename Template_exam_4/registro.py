@@ -1,29 +1,28 @@
-class Colegio:
-    def __init__(self, numero_DNI,nombr_profesional,importe_x_mes, tipo_afiliación, tipo_trabajo):
-        self.numero_DNI = numero_DNI
-        self.nombr_profesional = nombr_profesional
-        self.importe_x_mes = importe_x_mes
-        self.tipo_afiliación = tipo_afiliación
-        self.tipo_trabajo = tipo_trabajo
+class Lineas:
+    def __init__(self, numero_linea,nombr_titular,tipo_plan, cantidad_minutos, prov_linea):
+        self.numero_linea = numero_linea
+        self.nombr_titular = nombr_titular
+        self.tipo_plan = tipo_plan
+        self.cantidad_minutos = cantidad_minutos
+        self.prov_linea = prov_linea
 
     
     def __str__(self): 
-        s ='Número de DNI: {:^10} Nombre del profesional: {:<20}Importe de venta: {:<10}Tipo de afiliación: {:<10} Tipo de trabajo: {:<10}'
-        s = s.format(str(self.numero_DNI) , self.nombr_profesional, str(self.importe_x_mes), str(self.tipo_afiliación), str(self.tipo_trabajo))
+        s ='Número de Linea: {:^10} Nombre del titular: {:<20}Tipo de plan: {:<10}Cantidad de minutos consumidos: {:<10} Provincia donde se activó la línea: {:<10}'
+        s = s.format(str(self.numero_linea) , self.nombr_titular, str(self.tipo_plan), str(self.cantidad_minutos), str(self.prov_linea))
         return s
 
 def mostrar_menu():
     cad = '\n\nMenu de Opciones\n' \
           '=======================================\n' \
-          '1 --- Cargar un vector con los tipos de profesionales\n' \
-          '2 --- Mostar los profesionales cargados\n' \
-          '3 --- Buscar un profesional por DNI\n' \
-          '4 --- Crear un archivo de registros\n' \
-          '5 --- Mostrar el archivo \n' \
-          '6 --- Buscar un registro \n' \
-          '7 --- Generar matriz de acumulacion\n' \
+          '1 --- Cargar un vector con las líneas telefónicas\n' \
+          '2 --- Listar todas las líneas\n' \
+          '3 --- Generar un archivo\n' \
+          '4 --- Informar la cantidad de minutos consumidos\n' \
+          '5 --- Mostrar la línea con menor cantidad de minutos consumidos  \n' \
+          '6 --- Buscar una línea \n' \
           '0 --- Salir\n' \
-          'Ingrese su opcion: \n'
+          'Ingrese su opcion: '
     return int(input(cad))
 
 # 1 - Primero registro 
